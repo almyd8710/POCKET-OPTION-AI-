@@ -211,7 +211,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(ADMIN_ID, f"❌ خطأ:\n{tb[:4000]}")
 
 # تشغيل البوت
-app = ApplicationBuilder().token("7728605631:AAE-NR_NgUAuSSdzo3YZRBK7laOPa0LB7wY").build()
+app = ApplicationBuilder().token("7728605631:AAFPOZ8ni818s5LspoEUyXH2jrTApK9J_9s").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("change", change_pairs))
